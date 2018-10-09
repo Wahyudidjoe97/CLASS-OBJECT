@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("----------Object Kelas Kotak-----------");
+        System.out.println("----------Kotak-----------");
         //Buat object dari kelas kotak
         Kotak main = new Kotak();
         //mengatur ukuran kotak
@@ -16,7 +16,7 @@ public class Main {
         System.out.println("luas: " + main.getPanjang() * main.getLebar());
         System.out.println("keliling: " + main.getPanjang() * main.getLebar() * main.getPanjang() * main.getLebar());
 
-        System.out.println("----------------Object Kelas Mahasiswa---------------");
+        System.out.println("----------------Mahasiswa---------------");
         Mahasiswa Mahasiswa = new Mahasiswa();
 
         Mahasiswa.nama = "Wahyudi";
@@ -36,17 +36,17 @@ public class Main {
         System.out.println("tinggi badan: " + Mahasiswa.getTinggiBadan());
         System.out.println("berat badan: " + Mahasiswa.getBeratBadan());
 
-        System.out.println("---------------object Kelas node---------------");
+        System.out.println("---------------node---------------");
         //membuat object dari kelas note
         node node = new node();
-        node.Label = "Aqua";
-        node.Value = 3;
+        node.Label = "Sepeda";
+        node.Value = 7;
 
         //getter node
         System.out.println("Nama Label: " + node.getLabel());
         System.out.println("Jumlah Label: " + node.getValue());
 
-        System.out.println("-------------object class stack-------------");
+        System.out.println("-------------stack-------------");
         //membuat object kelas stack
         stack stack = new stack();
 
